@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .headerIcon {
+    @apply flex items-center justify-center select-none w-11 h-11 hover:text-blue-600;
+  }
+  .roundedButton {
+    @apply flex items-center h-10 px-4 text-sm text-white bg-blue-600 rounded-xl hover:bg-opacity-80;
+  }
+  .roundedInput {
+    @apply w-full px-4 py-3 transition ease-in-out bg-white border border-gray-300 appearance-none rounded-xl dark:bg-zinc-800 dark:border-gray-700 focus:outline-none focus:bg-transparent dark:focus:bg-transparent focus:border-blue-500 dark:focus:border-blue-500;
+  }
+  .roundedTextarea {
+    @apply text-base block w-full px-3 py-1.5 bg-white dark:bg-zinc-800 bg-clip-padding border border-solid border-gray-300 dark:border-gray-700  rounded-xl transition ease-in-out m-0 focus:border-blue-600 dark:focus:border-blue-500 focus:outline-none;
+  }
+  .roundedTag {
+    @apply px-2 py-0.5 text-sm bg-gray-300 dark:bg-gray-700  rounded-lg;
+  }
+  .menuItems {
+    @apply absolute z-10 bg-white border border-gray-300 divide-y divide-gray-200 rounded-md w-28 dark:border-gray-700 dark:divide-gray-700 dark:bg-zinc-900 ring-1 ring-black ring-opacity-5 focus:outline-none;
+  }
+  .menuItem {
+    @apply flex items-center w-full px-2 py-2 text-sm rounded-md;
+  }
+  .menuItemActive {
+    @apply text-white bg-blue-600;
+  }
+  .sectionIcon {
+    @apply w-6 h-6 mr-2;
+  }
+  .note {
+    @apply p-4 mb-2 text-sm border-l-2 border-blue-600 rounded-md cursor-pointer dark:bg-zinc-800 bg-gray-50;
+  }
+}
