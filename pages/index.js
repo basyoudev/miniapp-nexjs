@@ -24,7 +24,7 @@ export default function Home() {
         <meta property="og:description" content={description} />
         <meta property="og:title" content={title} />
         <meta property="twitter:description" content={description} />
-        <meta property="twitter:title" content={title} />{" "}
+        <meta property="twitter:title" content={title} />
       </Head>
       <div className="flex items-center justify-between mb-6">
         <button

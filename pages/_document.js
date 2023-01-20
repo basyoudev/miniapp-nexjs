@@ -7,7 +7,11 @@ export default function Document() {
         <meta property="og:site_name" content="miniapp" />
         <meta property="twitter:card" content="summary" />
         <meta property="og:type" content="website" />
-        <link rel="icon" type="image/x-icon" href="/myfavicon.ico" />
+        <link
+          rel="icon"
+          type="image/x-icon"
+          href={`${process.env.NEXT_PUBLIC_CLIENT_BASE_URL}/myfavicon.ico`}
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"

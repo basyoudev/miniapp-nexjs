@@ -12,7 +12,10 @@ export default function PostCard({ post, currentDate }) {
         <UserIcon className="w-5 h-5" />
       </div>
       <div className="pl-3">
-        <Link className=" hover:text-blue-600" href={`/posts/${post.id}`}>
+        <Link
+          className=" hover:text-blue-600"
+          href={`${process.env.NEXT_PUBLIC_CLIENT_BASE_URL}/posts/${post.id}`}
+        >
           <p className="mb-1">{post.title}</p>
         </Link>
         <p className="mb-2 text-sm opacity-90">{body}</p>
