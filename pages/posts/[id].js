@@ -77,3 +77,9 @@ export default function PostPage() {
 //   );
 //   return { props: { post: res.data } };
 // }
+
+export async function getServerSideProps(context) {
+  return {
+    props: {},
+  };
+}
