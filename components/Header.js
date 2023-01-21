@@ -43,16 +43,20 @@ export default function Header() {
               <MoonIcon className="w-6 h-6 " />
             )}
           </button>
-          <Link href="/notes" className="relative headerIcon">
+          <Link
+            href="/notes"
+            className="relative headerIcon"
+            aria-label="notes"
+          >
             <BellIcon className="w-6 h-6 " />
             <span className="absolute top-0 right-0 flex items-center justify-center w-4 h-4 text-xs text-white bg-blue-600 rounded-full">
               1
             </span>
           </Link>
-          <Link href="/message" className="headerIcon">
+          <Link href="/message" className="headerIcon" aria-label="message">
             <ChatBubbleLeftIcon className="w-6 h-6 " />
           </Link>
-          <Link href="/about" className="headerIcon">
+          <Link href="/about" className="headerIcon" aria-label="about">
             <InformationCircleIcon className="w-6 h-6 " />
           </Link>
           <Menu as="div" className="relative ">
