@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import { useState } from "react";
-import { ArrowLeftOnRectangleIcon } from "@heroicons/react/24/outline";
+import { UserPlusIcon } from "@heroicons/react/24/outline";
 
 import InputGroup from "../components/InputGroup";
 
@@ -26,7 +26,7 @@ export default function Login() {
       </Head>
       <div className="max-w-sm mb-6">
         <div className="flex items-center mb-6 ">
-          <ArrowLeftOnRectangleIcon className="sectionIcon" />
+          <UserPlusIcon className="sectionIcon" />
           Register
         </div>
         <p className="mb-3 text-sm">
