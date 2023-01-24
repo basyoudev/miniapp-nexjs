@@ -14,7 +14,7 @@ export default function Home() {
 
   const description =
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua";
-  const title = "Miniapp- Home";
+  const title = "Miniapp - Home";
 
   return (
     <>
